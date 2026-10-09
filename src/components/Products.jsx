@@ -25,10 +25,7 @@ function Products() {
       <div className="flex ml-2">
         <ul className="flex flex-wrap justify-evenly items-center">
           {products.map((product) => (
-            <Product
-              product={product}
-              addToCart={addToCart}
-            />
+            <Product product={product} addToCart={addToCart} />
           ))}
         </ul>
 
